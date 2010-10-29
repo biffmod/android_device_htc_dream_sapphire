@@ -36,7 +36,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES := \
     keyguard.no_require_sim=true \
     ro.ril.hsxpa=2 \
-    ro.ril.gprsclass=10 \
+    ro.ril.gprsclass=12 \
+    ro.ril.def.agps.mode=2 \
     ro.media.dec.jpeg.memcap=10000000
 
 PRODUCT_PROPERTY_OVERRIDES += \
