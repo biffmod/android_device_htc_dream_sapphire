@@ -102,5 +102,10 @@ ALL_PREBUILT += $(file)
 $(file) : $(LOCAL_PATH)/build.trout.prop | $(ACP)
 	$(transform-prebuilt-to-target)
 
+file := $(TARGET_ROOT_OUT)/biffmod.prop
+ALL_PREBUILT += $(file)
+$(file) : $(LOCAL_PATH)/biffmod.prop | $(ACP)
+	$(transform-prebuilt-to-target)
+
 -include vendor/htc/dream_sapphire/AndroidBoardVendor.mk
 

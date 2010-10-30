@@ -1,0 +1,3 @@
+ro.ramdisk.owner=biffmod
+ro.if.rom.not.biffmod=rom.kanged
+ro.if.nocredit.and.romkanged=bad
